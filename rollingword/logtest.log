@@ -1,0 +1,336 @@
+Inicializing! 
+I am the introducer! 
+getAdress: Introducer read node 0 from addr file: 172.22.150.141 : 172.22.150.141
+calling firstJoin
+Join: Connecting to 172.22.150.141...
+ERROR Join: Cannot connect to 172.22.150.141
+
+listeningThread: thread begins
+
+Detection Thread - Round: 1 ------------
+Member[0]: 172.22.150.141 1446957669 1
+
+Detection Thread - Round: 2 ------------
+Member[0]: 172.22.150.141 1446957669 1
+
+Detection Thread - Round: 3 ------------
+Member[0]: 172.22.150.141 1446957669 1
+
+Detection Thread - Round: 4 ------------
+Member[0]: 172.22.150.141 1446957669 1
+ForJoinThread: one node asking for membership list
+sendBackLocalList: sending 172.22.150.141 1446957669
+listeningThread: Receive message from: 172.22.150.144 0 0
+
+Detection Thread - Round: 5 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957672 1
+detectThread: checking alive or not for 172.22.150.144 1446957672
+listeningThread: Receive message from: 172.22.150.144 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.144 1446957672
+
+Detection Thread - Round: 6 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957672 1
+detectThread: checking alive or not for 172.22.150.144 1446957672
+listeningThread: Receive message from: 172.22.150.144 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.144 1446957672
+
+Detection Thread - Round: 7 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957672 1
+detectThread: checking alive or not for 172.22.150.144 1446957672
+listeningThread: Receive message from: 172.22.150.144 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.144 1446957672
+
+Detection Thread - Round: 8 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957672 1
+detectThread: checking alive or not for 172.22.150.144 1446957672
+listeningThread: Receive message from: 172.22.150.144 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.144 1446957672
+ForJoinThread: one node asking for membership list
+sendBackLocalList: sending 172.22.150.141 1446957669
+sendBackLocalList: sending 172.22.150.144 1446957672
+
+Detection Thread - Round: 9 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+detectThread: checking alive or not for 172.22.150.144 1446957677
+listeningThread: Receive message from: 172.22.150.144 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.144 1446957677
+
+Detection Thread - Round: 10 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+detectThread: checking alive or not for 172.22.150.144 1446957677
+listeningThread: Receive message from: 172.22.150.144 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.144 1446957677
+ForJoinThread: one node asking for membership list
+sendBackLocalList: sending 172.22.150.141 1446957669
+sendBackLocalList: sending 172.22.150.144 1446957677
+broadcastJoin: Introducer trying to broadcast join to 172.22.150.144
+
+Detection Thread - Round: 11 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+detectThread: checking alive or not for 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.145 1 0
+listeningThread: Receive message from: 172.22.150.145 0 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.145 1446957679
+
+Detection Thread - Round: 12 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+detectThread: checking alive or not for 172.22.150.144 1446957677
+listeningThread: Receive message from: 172.22.150.144 1 0
+listeningThread: Receive message from: 172.22.150.145 0 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.144 1446957677
+listeningThread: Receive message from: 172.22.150.143 1 0
+listeningThread: Receive message from: 172.22.150.143 1 0
+listeningThread: Receive message from: 172.22.150.143 1 0
+listeningThread: Receive message from: 172.22.150.143 1 0
+listeningThread: Receive message from: 172.22.150.143 1 0
+listeningThread: Receive message from: 172.22.150.143 1 0
+listeningThread: Receive message from: 172.22.150.145 1 0
+listeningThread: Receive message from: 172.22.150.145 1 0
+ForJoinThread: one node asking for membership list
+sendBackLocalList: sending 172.22.150.141 1446957669
+sendBackLocalList: sending 172.22.150.144 1446957677
+sendBackLocalList: sending 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.144 1 0
+listeningThread: Receive message from: 172.22.150.144 1 0
+broadcastJoin: Introducer trying to broadcast join to 172.22.150.144
+broadcastJoin: Introducer trying to broadcast join to 172.22.150.145
+
+Detection Thread - Round: 13 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.145 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.145 1446957679
+
+Detection Thread - Round: 14 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.143 1446957681
+listeningThread: Receive message from: 172.22.150.143 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.143 1446957681
+
+Detection Thread - Round: 15 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.145 1 0
+detectThread: node alive: 172.22.150.145 1446957679
+
+Detection Thread - Round: 16 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.144 1446957677
+listeningThread: Receive message from: 172.22.150.144 1 0
+detectThread: node alive: 172.22.150.144 1446957677
+listeningThread: Receive message from: 172.22.150.143 0 0
+
+Detection Thread - Round: 17 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.143 1446957681
+listeningThread: Receive message from: 172.22.150.143 1 0
+detectThread: node alive: 172.22.150.143 1446957681
+listeningThread: Receive message from: 172.22.150.143 0 0
+
+Detection Thread - Round: 18 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.143 1446957681
+listeningThread: Receive message from: 172.22.150.143 1 0
+detectThread: node alive: 172.22.150.143 1446957681
+
+Detection Thread - Round: 19 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.144 1446957677
+listeningThread: Receive message from: 172.22.150.144 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.144 1446957677
+
+Detection Thread - Round: 20 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.145 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.143 0 0
+
+Detection Thread - Round: 21 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.145 1 0
+listeningThread: Receive message from: 172.22.150.145 0 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.143 0 0
+
+Detection Thread - Round: 22 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.145 1 0
+detectThread: node alive: 172.22.150.145 1446957679
+
+Detection Thread - Round: 23 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.144 1446957677
+listeningThread: Receive message from: 172.22.150.144 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.144 1446957677
+
+Detection Thread - Round: 24 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.145 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.145 1446957679
+
+Detection Thread - Round: 25 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.144 1446957677
+listeningThread: Receive message from: 172.22.150.144 1 0
+listeningThread: Receive message from: 172.22.150.145 0 0
+detectThread: node alive: 172.22.150.144 1446957677
+listeningThread: Receive message from: 172.22.150.143 0 0
+
+Detection Thread - Round: 26 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.145 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.143 0 0
+
+Detection Thread - Round: 27 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.145 1 0
+listeningThread: Receive message from: 172.22.150.145 0 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.143 0 0
+
+Detection Thread - Round: 28 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.144 1446957677
+listeningThread: Receive message from: 172.22.150.144 1 0
+detectThread: node alive: 172.22.150.144 1446957677
+
+Detection Thread - Round: 29 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.144 1446957677
+listeningThread: Receive message from: 172.22.150.144 1 0
+detectThread: node alive: 172.22.150.144 1446957677
+
+Detection Thread - Round: 30 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.145 1446957679
+listeningThread: Receive message from: 172.22.150.145 1 0
+listeningThread: Receive message from: 172.22.150.145 0 0
+detectThread: node alive: 172.22.150.145 1446957679
+
+Detection Thread - Round: 31 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.143 1446957681
+listeningThread: Receive message from: 172.22.150.143 1 0
+detectThread: node alive: 172.22.150.143 1446957681
+listeningThread: Receive message from: 172.22.150.143 0 0
+
+Detection Thread - Round: 32 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.143 1446957681
+listeningThread: Receive message from: 172.22.150.143 1 0
+detectThread: node alive: 172.22.150.143 1446957681
+
+Detection Thread - Round: 33 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.143 1446957681
+listeningThread: Receive message from: 172.22.150.143 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.143 1446957681
+listeningThread: Receive message from: 172.22.150.143 0 0
+
+Detection Thread - Round: 34 ------------
+Member[0]: 172.22.150.141 1446957669 1
+Member[1]: 172.22.150.144 1446957677 1
+Member[2]: 172.22.150.145 1446957679 1
+Member[3]: 172.22.150.143 1446957681 1
+detectThread: checking alive or not for 172.22.150.144 1446957677
+listeningThread: Receive message from: 172.22.150.144 1 0
+listeningThread: Receive message from: 172.22.150.144 0 0
+detectThread: node alive: 172.22.150.144 1446957677
